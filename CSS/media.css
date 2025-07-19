@@ -1,0 +1,88 @@
+@media screen and (max-width: 992px) and (min-width: 768px)
+{
+    
+.Nav_list
+{
+    opacity: 0;   
+}
+
+.Sec2
+{
+    height: 150vh;
+    width: 100%;
+}
+
+.sec2-container
+{
+    height: 95%;
+    width: 90%;
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.half
+{
+    width: 100%;
+}
+
+.sec2-container .left
+{
+    height: 42%;
+}
+
+.sec2-container .right
+{
+    height: 55%;
+    background-image: url("../Images/about.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec2-container .right img
+{
+    height: 0px;
+}
+
+/* ---------------------------------Section 3--------------------------------- */
+
+.Sec3
+{
+    height: 25vh;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.Sec3 .container
+{
+    height: 100%;
+    margin-top: 30px;
+}
+
+.clients
+{
+    height: 30%;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.clients img
+{
+    height: 90%;
+}
+
+
+.dots
+{
+    height: 48%;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;  
+}
+
+}
